@@ -1,33 +1,18 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" type="image/ico" href="favicon.ico">
-</head>
+<?php include 'includes/01doctype_inc.php'; ?>
+<!-- Individual title for every single page -->
+<title>Login</title>
+<!-- End of title tag -->
+<?php include 'includes/02head_rest_inc.php'; ?>
+<!-- START OF BODY -->
 <body>
-<nav>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="signin.php">Login</a></li>
-        <li><a href="signup.php">Register</a></li>
-    </ul>
-</nav>
+<?php include 'includes/03nav_inc.php'; ?>
 <header>
-    <h1>My First PHP Page</h1>
+    <h1>Loggen Sie sich jetzt ein</h1>
 </header>
 <main>
-    <h2>Login</h2>
-    <?php
-    echo "Jetzt einloggen";
-    ?>
+    <h2>Einloggen</h2>
+    <?php echo "Jetzt einloggen"; ?>
 </main>
-<?php
-    include_once 'includes/footer_inc.php';
-?>
+<?php include 'includes/10footer_inc.php'; ?>
 </body>
 </html>
-
-

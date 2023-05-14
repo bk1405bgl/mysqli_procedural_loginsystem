@@ -1,34 +1,18 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrieren</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" type="image/ico" href="favicon.ico">
-</head>
+<?php include 'includes/01doctype_inc.php'; ?>
+<!-- Individual title for every single page -->
+<title>Registrieren</title>
+<!-- End of title tag -->
+<?php include 'includes/02head_rest_inc.php'; ?>
+<!-- START OF BODY -->
 <body>
-<nav>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="signin.php">Login</a></li>
-        <li><a href="signup.php">Register</a></li>
-    </ul>
-</nav>
+<?php include 'includes/03nav_inc.php'; ?>
 <header>
-    <h1>My First PHP Page</h1>
+    <h1>Registrieren Sie ich jetzt</h1>
 </header>
-
 <main>
-    <h2>Register</h2>
-    <?php
-    echo "Jetzt registrieren";
-    ?>
+    <h2>Registrieren</h2>
+    <?php echo "Jetzt registrieren"; ?>
 </main>
-<?php
-include_once 'includes/footer_inc.php';
-?>
+<?php include 'includes/10footer_inc.php'; ?>
 </body>
 </html>
-
-

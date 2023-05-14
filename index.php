@@ -1,34 +1,18 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Welcome</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="icon" type="image/ico" href="favicon.ico">
-</head>
-	<body>
-	<nav>
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="signin.php">Login</a></li>
-			<li><a href="signup.php">Register</a></li>
-		</ul>
-	</nav>
-
-	<header>
-			<h1>My First PHP Page</h1>
-		</header>
-		<main>
-			<h2>Home</h2>
-			<?php
-				echo "Hello World";
-			?>
-		</main>
-	<?php
-		include_once 'includes/footer_inc.php';
-	?>
-	</body>
+<?php include 'includes/01doctype_inc.php'; ?>
+<!-- Individual title for every single page -->
+<title>Welcome</title>
+<!-- End of title tag -->
+<?php include 'includes/02head_rest_inc.php'; ?>
+<!-- START OF BODY -->
+<body>
+<?php include 'includes/03nav_inc.php'; ?>
+<header>
+    <h1>My First PHP Page</h1>
+</header>
+<main>
+    <h2>Dashboard</h2>
+    <?php echo "Hello World"; ?>
+</main>
+<?php include 'includes/10footer_inc.php'; ?>
+</body>
 </html>
-
-
