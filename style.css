@@ -12,6 +12,9 @@ body {
     -webkit-font-smoothing: antialiased;
     font-family: "Roboto Light", sans-serif;
 }
+ul {
+    display: inline;
+}
 img, picture, video, canvas, svg {
     display: block;
     max-width: 100%;

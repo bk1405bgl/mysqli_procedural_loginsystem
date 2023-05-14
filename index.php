@@ -5,18 +5,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My First PHP Page</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/ico" href="favicon.ico">
 </head>
 	<body>
-		<header>
+	<nav>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="signin.php">Login</a></li>
+			<li><a href="signup.php">Register</a></li>
+		</ul>
+	</nav>
+
+	<header>
 			<h1>My First PHP Page</h1>
 		</header>
-		<nav>
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="signin.php">Login</a></li>
-				<li><a href="signup.php">Register</a></li>
-			</ul>
-		</nav>
 		<main>
 			<h2>Home</h2>
 			<?php
