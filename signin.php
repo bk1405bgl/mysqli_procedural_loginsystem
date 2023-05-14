@@ -24,9 +24,9 @@
     echo "Jetzt einloggen";
     ?>
 </main>
-<footer>
-    <p>My First PHP Page</p>
-</footer>
+<?php
+    include_once 'includes/footer_inc.php';
+?>
 </body>
 </html>
 
