@@ -7,7 +7,7 @@
 <body>
 <?php include 'includes/03nav_inc.php'; ?>
 <header>
-    <h1>Registrieren Sie ich jetzt</h1>
+    <h1>Chemperator</h1>
 </header>
 <main>
     <h2>Registrieren</h2>
