@@ -12,6 +12,7 @@
 <main>
     <h2>Registrieren</h2>
     <?php echo "Jetzt registrieren"; ?>
+    <p>Schon registriert? <a href="signin.php">Hier geht es zum Login-Bereich.</a></p>
 </main>
 <?php include 'includes/10footer_inc.php'; ?>
 </body>

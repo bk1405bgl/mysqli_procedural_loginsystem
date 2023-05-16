@@ -11,7 +11,7 @@
 </header>
 <main>
     <h2>Einloggen</h2>
-    <?php echo "Jetzt einloggen"; ?>
+    <p>Noch nicht registriert? <a href="signup.php">Hier geht es zur Registrierung.</a></p>
 </main>
 <?php include 'includes/10footer_inc.php'; ?>
 </body>

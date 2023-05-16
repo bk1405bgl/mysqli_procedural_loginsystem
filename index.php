@@ -12,6 +12,15 @@
 <main>
     <h2>Dashboard</h2>
     <?php echo "Hello World"; ?>
+    <div>
+        Anzahl Kunden: 499
+    </div>
+    <div>
+        Anzahl Produkte: 399
+    </div>
+    <div>
+        Anzahl Bestellungen: 299
+    </div>
 </main>
 <?php include 'includes/10footer_inc.php'; ?>
 </body>
