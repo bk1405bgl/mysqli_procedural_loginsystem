@@ -2,8 +2,15 @@
 <nav>
 		<ul>
 			<li><a href="/">Home</a></li>
-			<li><a href="signin.php">Login</a></li>
-			<li><a href="signup.php">Register</a></li>
+            <?php
+            if (isset($_SESSION["userid"])) {
+                echo "<li><a href='profile.php'>Profile</a></li>";
+                echo "<li><a href='includes/08logout_inc.php'>Log out</a></li>";
+            } else {
+                echo "<li><a href='signin.php'>Sign in</a></li>";
+                echo "<li><a href='signup.php'>Sign up</a></li>";
+            }
+            ?>
 		</ul>
 	</nav>
 <?php // The end of the Navigation Links. ?>

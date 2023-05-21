@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <?php // The beginning of every page starts with these elements, until the title tag must be defined individually. ?>
 <!DOCTYPE html>
 <html lang="de">
