@@ -12,14 +12,16 @@
 <main>
     <h2>Dashboard</h2>
     <?php echo "Hello World"; ?>
-    <div>
+    <div class="card-container">
+    <div class="card">
         Anzahl Kunden: 499
     </div>
-    <div>
+    <div class="card">
         Anzahl Produkte: 399
     </div>
-    <div>
+    <div class="card">
         Anzahl Bestellungen: 299
+    </div>
     </div>
 </main>
 <?php include 'includes/10footer_inc.php'; ?>

@@ -37,6 +37,20 @@ main {
     padding: 1rem;
 }
 
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 10rem;
+}
+.card {
+    background-color: #808080;
+    border: black 2px dashed;
+    padding: 40px;
+    margin: auto;
+    color: #fff;
+}
+
 footer {
     margin-top: auto;
     padding: 1rem;
